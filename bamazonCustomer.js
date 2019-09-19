@@ -1,7 +1,7 @@
 const mysql = require("mysql");
 const inquirer = require("inquirer");
-// const consoleTable = require("console.table");
-const table = require("cli-table");
+const consoleTable = require("console.table");
+// const table = require("cli-table");
 
 let connection = mysql.createConnection({
     host: "localhost",
@@ -19,9 +19,11 @@ connection.connect(function(err) {
 let display = function() {
     connection.query("SELECT * FROM products", function(err, results) {
         if (err) throw err;
-        console.log(results);
+        console.table(results);
     })
 };
+
+
 
 display();
 
