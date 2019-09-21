@@ -14,5 +14,7 @@ If the item is in stock the application will display the total that the user mus
 
 Please see images below:
 
-
+<img src = "images/app.png">
+<img src = "images/updateapp.png">
+<img src = "images/outofstock.png">
 
