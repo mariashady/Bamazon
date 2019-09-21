@@ -20,6 +20,6 @@ In this image you will see a table of available items, the user purchased 2 Blen
 In this image you will see that the 'stock_quantity' for the blender has been updated from 196 to 194 
 <img src = "images/updateapp.png">
 
-In this image you will see that the user wanted to purchase 11 Chef's Knives, however there are enough in stock.  The user is notified and asked if they would like to place another order:
+In this image you will see that the user wanted to purchase 11 Chef's Knives, however there are not enough in stock.  The user is notified and asked if they would like to place another order:
 <img src = "images/outofstock.png">
 
