@@ -62,6 +62,7 @@ function start() {
                 connection.query("UPDATE products SET ? WHERE ? ", [{stock_quantity:res[0].stock_quantity - answer.quantity}, {item_id:answer.product}], function (err, updateRes) {
                     if (err) throw err;
                     console.log("Total: ", res[0].price * answer.quantity);
+                    connection.end();
                 })
             }
             
