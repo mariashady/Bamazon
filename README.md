@@ -14,7 +14,12 @@ If the item is in stock the application will display the total that the user mus
 
 Please see images below:
 
+In this image you will see a table of available items, the user purchased 2 Blenders:
 <img src = "images/app.png">
+
+In this image you will see that the 'stock_quantity' for the blender has been updated from 196 to 194 
 <img src = "images/updateapp.png">
+
+In this image you will see that the user wanted to purchase 11 Chef's Knives, however there are enough in stock.  The user is notified and asked if they would like to place another order:
 <img src = "images/outofstock.png">
 
